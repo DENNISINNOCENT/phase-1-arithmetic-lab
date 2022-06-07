@@ -10,9 +10,12 @@ multiply =num1*num2
 let random;
 random=Math.floor(Math.random(0,99)*10)
 
-let mod;
-let num3=169;
-let num4=5;
-mod=num3%num4;
+// let mod;
+// let num3=169;
+// let num4=5;
+// mod=num3%num4;
+function mod(num3,num4){
+    return num3 % num4 ===4;
+}
 
 let max =Math.max(15,16,19,20)
